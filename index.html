@@ -7,15 +7,35 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Random User Generator</title>
 </head>
 
 <body>
+    <header>
+        <div class="container text-center">
+            <h1>Random User Generator</h1>
+        </div>
+    </header>
+
+    <!-- <div class="container">
+        <ul id="authors"></ul>
+    </div> -->
 
     <div class="container">
-        <h2>Authors</h2>
-        <ul id="authors"></ul>
+        <div class="card card--custom text-center mx-auto">
+            <div class="card-header">
+                <img src="" id="picture" class="card-img-top py-5" alt="User picture">
+            </div>
+            <div class="card-body p-5">
+                <h5 class=" card-title text-muted card--custom-title">Hi, My name is</h5>
+                <h3 class="card-text py-2" id="userName">
+                    content.
+                </h3>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+        </div>
     </div>
+
 
     <script src="app.js"></script>
 </body>
