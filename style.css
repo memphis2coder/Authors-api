@@ -1,0 +1,32 @@
+body {
+    background-color: #f4f4f4;
+    padding-top: 10%;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    padding: 1em;
+}
+
+#authors {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1em;
+    text-align: center;
+}
+
+#authors img {
+    border-radius: 50px;
+}
+
+#authors p {
+    color: lightcoral;
+    padding: .5em;
+}
+
